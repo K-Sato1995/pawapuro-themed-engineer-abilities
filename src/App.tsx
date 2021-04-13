@@ -1,21 +1,13 @@
+/** @jsxImportSource @emotion/react */
 import React from 'react'
-import { css } from '@emotion/react'
+import { jsx, css } from '@emotion/react'
 
-const base = css`
-  background-color: darkgreen;
-  color: turquoise;
+const text = css`
+  color: hotpink;
 `
+
 function App() {
-  return (
-    <div
-      css={{
-        color: 'darkorchid',
-        backgroundColor: 'lightgray',
-      }}
-    >
-      Test
-    </div>
-  )
+  return <div css={text}>Some hotpink text.</div>
 }
 
 export default App
