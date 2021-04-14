@@ -1,8 +1,15 @@
 /** @jsxImportSource @emotion/react */
 import React from 'react'
 import { css } from '@emotion/react'
+import { convertSkillLevelToRank } from 'utilities'
 
-const Skill = () => {
+interface Props {
+  engineerSkill: Skill
+}
+
+const Skill = ({ engineerSkill }: Props) => {
+  const { skillName, skillLeve } = engineerSkill
+
   return (
     <div
       css={css`
@@ -27,7 +34,7 @@ const Skill = () => {
             margin: auto;
           `}
         >
-          マネジメント
+          {skillName}
         </h1>
       </div>
 
@@ -45,7 +52,7 @@ const Skill = () => {
             margin: auto;
           `}
         >
-          A
+          {convertSkillLevelToRank(skillLeve)}
         </h1>
       </div>
 
@@ -63,7 +70,7 @@ const Skill = () => {
             margin: auto;
           `}
         >
-          100
+          {skillLeve}
         </h1>
       </div>
     </div>
