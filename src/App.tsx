@@ -21,7 +21,7 @@ function App() {
           background-color: #eee;
           max-width: 860px;
           margin: 0 auto;
-          height: 100%;
+          height: 100vh;
           border: solid 1px;
         `}
       >

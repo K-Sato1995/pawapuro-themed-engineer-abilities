@@ -16,7 +16,6 @@ const Skill = ({ engineerSkill }: Props) => {
         width: 25%;
         height: 120px;
         padding: 5px;
-        margin: 10px;
         border: solid green 1px;
       `}
     >

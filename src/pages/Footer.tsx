@@ -7,6 +7,7 @@ const Footer = () => {
     <div
       css={css`
         margin: 10px;
+        height: 10vh;
         background-color: green;
       `}
     >

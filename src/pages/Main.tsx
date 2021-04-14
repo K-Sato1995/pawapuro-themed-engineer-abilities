@@ -2,6 +2,7 @@
 import React from 'react'
 import { css } from '@emotion/react'
 import Skill from 'components/organisms/Skill'
+import UserInfo from 'components/organisms/UserInfo'
 
 const skills: Skill[] = [
   { skillName: '問題解決力', skillLeve: 62 },
@@ -17,13 +18,15 @@ const Main = () => {
     <>
       <section
         css={css`
+          display: flex;
           border: solid 1px;
           background-color: red;
-          height: 300px;
+          height: 20vh;
+          min-height: 250px;
           margin: 10px;
         `}
       >
-        User Info Content
+        <UserInfo />
       </section>
 
       <section
@@ -31,9 +34,12 @@ const Main = () => {
           display: flex;
           position: relative;
           flex-wrap: wrap;
+          padding: 10px;
           border: solid 1px;
+          height: 30vh;
+          min-height: 280px;
           background-color: red;
-          justify-content: center;
+          justify-content: space-evenly;
           margin: 10px;
         `}
       >
@@ -46,7 +52,8 @@ const Main = () => {
         css={css`
           border: solid 1px;
           background-color: red;
-          height: 300px;
+          height: 30vh;
+          min-height: 300px;
           margin: 10px;
         `}
       >
