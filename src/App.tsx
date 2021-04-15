@@ -18,11 +18,12 @@ function App() {
       <GlobalStyles />
       <div
         css={css`
-          background-color: #eee;
+          background-color: #f6feff;
           max-width: 860px;
           margin: 0 auto;
-          height: 100vh;
-          border: solid 1px;
+          height: 100%;
+          border-right: solid #e5ebf0 1px;
+          border-left: solid #e5ebf0 1px;
         `}
       >
         <Main />

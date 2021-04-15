@@ -11,6 +11,7 @@ const GlobalStyles = () => {
         body {
           ${emotionReset}
           font-family: 'Arial';
+          /* background-color: #f5ffff; */
         }
       `}
     />

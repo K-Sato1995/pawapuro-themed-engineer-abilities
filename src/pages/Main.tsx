@@ -3,6 +3,7 @@ import React from 'react'
 import { css } from '@emotion/react'
 import Skill from 'components/organisms/Skill'
 import UserInfo from 'components/organisms/UserInfo'
+import SpecialSkill from 'components/organisms/SpecialSkill'
 
 const skills: Skill[] = [
   { skillName: '問題解決力', skillLeve: 62 },
@@ -18,9 +19,9 @@ const Main = () => {
     <>
       <section
         css={css`
+          border: dashed 1px;
           display: flex;
-          border: solid 1px;
-          background-color: red;
+          justify-content: center;
           height: 20vh;
           min-height: 250px;
           margin: 10px;
@@ -31,15 +32,13 @@ const Main = () => {
 
       <section
         css={css`
+          border: dashed 1px;
+
           display: flex;
-          position: relative;
           flex-wrap: wrap;
-          padding: 10px;
-          border: solid 1px;
+          justify-content: space-evenly;
           height: 30vh;
           min-height: 280px;
-          background-color: red;
-          justify-content: space-evenly;
           margin: 10px;
         `}
       >
@@ -50,14 +49,32 @@ const Main = () => {
 
       <section
         css={css`
-          border: solid 1px;
-          background-color: red;
+          border: dashed 1px;
+
           height: 30vh;
           min-height: 300px;
+          background-color: #0f1e52;
           margin: 10px;
         `}
       >
-        User specialities
+        <div
+          css={css`
+            border: dashed pink 1px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: left;
+            background-color: #0f1e52;
+            margin: 10px;
+          `}
+        >
+          <SpecialSkill />
+          <SpecialSkill />
+          <SpecialSkill />
+          <SpecialSkill />
+          <SpecialSkill />
+          <SpecialSkill />
+          <SpecialSkill />
+        </div>
       </section>
     </>
   )
