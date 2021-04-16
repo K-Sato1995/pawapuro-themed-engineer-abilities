@@ -6,12 +6,21 @@ const Footer = () => {
   return (
     <div
       css={css`
-        margin: 10px;
-        height: 10vh;
-        background-color: green;
+        position: relative;
+        height: 60px;
+        border-top: solid #bec9d2 1px;
       `}
     >
-      Footer
+      <span
+        css={css`
+          position: absolute;
+          right: 20px;
+          bottom: 20px;
+          color: #3276a3;
+        `}
+      >
+        パワプロ風エンジニア能力値
+      </span>
     </div>
   )
 }

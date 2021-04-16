@@ -2,6 +2,7 @@
 import React from 'react'
 import Main from 'pages/Main'
 import Footer from 'pages/Footer'
+import Header from 'pages/Header'
 import GlobalStyles from 'GlobalStyles'
 import { css } from '@emotion/react'
 import { ThemeProvider } from '@emotion/react'
@@ -26,6 +27,7 @@ function App() {
           border-left: solid #e5ebf0 1px;
         `}
       >
+        <Header />
         <Main />
         <Footer />
       </div>

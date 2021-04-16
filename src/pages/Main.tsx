@@ -19,7 +19,7 @@ const Main = () => {
     <>
       <section
         css={css`
-          border: dashed 1px;
+          /* border: dashed 1px; */
 
           display: flex;
           justify-content: center;
@@ -33,7 +33,7 @@ const Main = () => {
 
       <section
         css={css`
-          border: dashed 1px;
+          /* border: dashed 1px; */
 
           display: flex;
           flex-wrap: wrap;
@@ -50,7 +50,7 @@ const Main = () => {
 
       <section
         css={css`
-          border: dashed 1px;
+          /* border: dashed 1px; */
 
           height: 30vh;
           min-height: 300px;
