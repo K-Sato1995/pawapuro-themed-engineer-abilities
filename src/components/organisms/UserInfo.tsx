@@ -24,7 +24,7 @@ const UserInfo = () => {
               border: solid #bec9d2 2px;
               /* width: 150px;
               height: 150px; */
-              border-radius: 5px;
+              border-radius: 10px;
 
               box-shadow: rgb(0 0 0 / 3%) 0px 3px 8px 0px;
             `}
@@ -51,7 +51,8 @@ const UserInfo = () => {
               width: 200px;
               height: 40px;
               position: relative;
-              border-radius: 5px;
+              border-radius: 10px;
+
               margin: 7px;
 
               box-shadow: rgb(0 0 0 / 3%) 0px 3px 8px 0px;
@@ -81,7 +82,7 @@ const UserInfo = () => {
             padding: 20px;
             background-color: #fdfdfd;
             border: solid #bec9d2 2px;
-            border-radius: 5px;
+            border-radius: 10px;
 
             box-shadow: rgb(0 0 0 / 3%) 0px 3px 8px 0px;
           `}
@@ -101,7 +102,7 @@ const UserInfo = () => {
             padding: 20px;
             background-color: #fdfdfd;
             border: solid #bec9d2 2px;
-            border-radius: 5px;
+            border-radius: 10px;
 
             box-shadow: rgb(0 0 0 / 3%) 0px 3px 8px 0px;
           `}

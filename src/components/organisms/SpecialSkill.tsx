@@ -21,7 +21,8 @@ const SpecialSkill = () => {
           width: 180px;
           height: 40px;
           position: relative;
-          border-radius: 5px;
+          border-radius: 10px;
+
           margin: 10px;
 
           background-color: #fdfdfd;
