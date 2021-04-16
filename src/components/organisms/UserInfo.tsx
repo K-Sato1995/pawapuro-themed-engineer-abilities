@@ -50,12 +50,11 @@ const UserInfo = () => {
               text-align: center;
               width: 200px;
               height: 40px;
+              letter-spacing: 1.5px;
               position: relative;
               border-radius: 10px;
-
               margin: 7px;
-
-              box-shadow: rgb(0 0 0 / 3%) 0px 3px 8px 0px;
+              border: solid #22b91a 2px;
             `}
           >
             <h2

@@ -12,7 +12,7 @@ const skillToColor: Record<SkillRank, string> = {
   F: '#2DC3F9',
   E: '#0FB411',
   D: '#EAC637',
-  C: '#CB872A',
+  C: '#D18E2C',
   B: '#EF2D6A',
   A: '#C723C0',
   S: '#F895BC',
@@ -29,9 +29,7 @@ const Skill = ({ engineerSkill }: Props) => {
         padding: 5px;
         border: solid #bec9d2 2px;
         border-radius: 10px;
-
         background-color: #fdfdfd;
-
         box-shadow: rgb(0 0 0 / 3%) 0px 3px 8px 0px;
       `}
     >
@@ -58,7 +56,7 @@ const Skill = ({ engineerSkill }: Props) => {
         css={css`
           font-weight: bold;
           height: 50%;
-          font-size: 25px;
+          font-size: 35px;
           display: flex;
           text-align: center;
         `}
@@ -66,6 +64,9 @@ const Skill = ({ engineerSkill }: Props) => {
         <h1
           css={css`
             margin: auto;
+            text-shadow: -1px 0 #dbe5ec, 0 1px #dbe5ec, 1px 0 #dbe5ec,
+              0 -1px #dbe5ec;
+
             color: ${skillToColor[convertSkillLevelToRank(skillLeve)]};
           `}
         >
