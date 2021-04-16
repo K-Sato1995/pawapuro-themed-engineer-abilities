@@ -20,6 +20,7 @@ const Main = () => {
       <section
         css={css`
           border: dashed 1px;
+
           display: flex;
           justify-content: center;
           height: 20vh;
@@ -53,17 +54,15 @@ const Main = () => {
 
           height: 30vh;
           min-height: 300px;
-          background-color: #0f1e52;
+          /* background-color: #9cc7e3; */
           margin: 10px;
         `}
       >
         <div
           css={css`
-            border: dashed pink 1px;
+            position: relative;
             display: flex;
             flex-wrap: wrap;
-            justify-content: left;
-            background-color: #0f1e52;
             margin: 10px;
           `}
         >
