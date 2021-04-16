@@ -20,9 +20,10 @@ function App() {
       <div
         css={css`
           background-color: #f6feff;
+          position: relative;
           max-width: 860px;
           margin: 0 auto;
-          height: 100%;
+          min-height: 100vh;
           border-right: solid #e5ebf0 1px;
           border-left: solid #e5ebf0 1px;
         `}

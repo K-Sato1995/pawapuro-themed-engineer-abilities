@@ -7,8 +7,8 @@ const Header = () => {
     <div
       css={css`
         position: relative;
-
         height: 60px;
+        margin-bottom: 30px;
         border-bottom: solid #bec9d2 1px;
       `}
     >

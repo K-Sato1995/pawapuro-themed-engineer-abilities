@@ -25,7 +25,7 @@ const Main = () => {
           justify-content: center;
           height: 20vh;
           min-height: 250px;
-          margin: 10px;
+          margin: 30px;
         `}
       >
         <UserInfo />
@@ -40,7 +40,7 @@ const Main = () => {
           justify-content: space-evenly;
           height: 30vh;
           min-height: 280px;
-          margin: 10px;
+          margin: 30px;
         `}
       >
         {skills.map((skill: Skill, idx: number) => {
@@ -55,7 +55,7 @@ const Main = () => {
           height: 30vh;
           min-height: 300px;
           /* background-color: #9cc7e3; */
-          margin: 10px;
+          margin: 30px;
         `}
       >
         <div
