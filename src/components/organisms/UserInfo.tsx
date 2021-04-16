@@ -21,10 +21,12 @@ const UserInfo = () => {
         >
           <img
             css={css`
-              border: solid #bec9d2 1px;
+              border: solid #bec9d2 2px;
               /* width: 150px;
               height: 150px; */
               border-radius: 5px;
+
+              box-shadow: rgb(0 0 0 / 3%) 0px 3px 8px 0px;
             `}
             src="logo192.png"
             alt="userImage"
@@ -51,6 +53,8 @@ const UserInfo = () => {
               position: relative;
               border-radius: 5px;
               margin: 7px;
+
+              box-shadow: rgb(0 0 0 / 3%) 0px 3px 8px 0px;
             `}
           >
             <h2
@@ -76,8 +80,10 @@ const UserInfo = () => {
           css={css`
             padding: 20px;
             background-color: #fdfdfd;
-            border: solid #bec9d2 1px;
+            border: solid #bec9d2 2px;
             border-radius: 5px;
+
+            box-shadow: rgb(0 0 0 / 3%) 0px 3px 8px 0px;
           `}
         >
           <h2
@@ -94,8 +100,10 @@ const UserInfo = () => {
             margin-top: 20px;
             padding: 20px;
             background-color: #fdfdfd;
-            border: solid #bec9d2 1px;
+            border: solid #bec9d2 2px;
             border-radius: 5px;
+
+            box-shadow: rgb(0 0 0 / 3%) 0px 3px 8px 0px;
           `}
         >
           <p

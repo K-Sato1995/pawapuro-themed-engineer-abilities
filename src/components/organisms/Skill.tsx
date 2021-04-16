@@ -27,9 +27,11 @@ const Skill = ({ engineerSkill }: Props) => {
         width: 25%;
         height: 120px;
         padding: 5px;
-        border: solid #bec9d2 1px;
+        border: solid #bec9d2 2px;
         border-radius: 5px;
         background-color: #fdfdfd;
+
+        box-shadow: rgb(0 0 0 / 3%) 0px 3px 8px 0px;
       `}
     >
       <div

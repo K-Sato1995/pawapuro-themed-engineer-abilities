@@ -9,6 +9,7 @@ const Header = () => {
         position: relative;
         height: 60px;
         margin-bottom: 30px;
+        /* box-shadow: rgb(0 0 0 / 3%) 0px 3px 8px 0px; */
         border-bottom: solid #bec9d2 1px;
       `}
     >

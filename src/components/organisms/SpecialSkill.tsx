@@ -16,13 +16,17 @@ const SpecialSkill = () => {
           display: flex;
           justify-content: center;
           align-items: center;
-          background-color: #c4feff;
-          border: solid #3276a3 1px;
+          /* background-color: rgb(196, 217, 255); */
+          border: solid #bec9d2 2px;
           width: 180px;
           height: 40px;
           position: relative;
           border-radius: 5px;
           margin: 10px;
+
+          background-color: #fdfdfd;
+          /* background: linear-gradient(-135deg, #c4feff, rgb(196, 217, 255)); */
+          box-shadow: rgb(0 0 0 / 3%) 0px 3px 8px 0px;
         `}
       >
         <h2
