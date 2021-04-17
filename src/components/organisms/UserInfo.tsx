@@ -9,12 +9,10 @@ const UserInfo = () => {
         css={css`
           display: flex;
           flex-direction: column;
-          flex: 1;
         `}
       >
         <div
           css={css`
-            flex: 2;
             display: flex;
             justify-content: center;
           `}
@@ -22,10 +20,7 @@ const UserInfo = () => {
           <img
             css={css`
               border: solid #bec9d2 2px;
-              /* width: 150px;
-              height: 150px; */
               border-radius: 10px;
-
               box-shadow: rgb(0 0 0 / 3%) 0px 3px 8px 0px;
             `}
             src="logo192.png"
@@ -35,7 +30,6 @@ const UserInfo = () => {
 
         <div
           css={css`
-            flex: 1;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -47,6 +41,7 @@ const UserInfo = () => {
               justify-content: center;
               align-items: center;
               background-color: #26dc1c;
+              border: solid #22b91a 2px;
               text-align: center;
               width: 200px;
               height: 40px;
@@ -54,13 +49,13 @@ const UserInfo = () => {
               position: relative;
               border-radius: 10px;
               margin: 7px;
-              border: solid #22b91a 2px;
             `}
           >
             <h2
               css={css`
                 font-size: 15px;
                 font-weight: bold;
+                letter-spacing: 1.5px;
               `}
             >
               佐藤　太郎
@@ -72,23 +67,24 @@ const UserInfo = () => {
       {/* UserInfo Right */}
       <div
         css={css`
-          flex: 2;
-          /* border: solid 1px; */
+          /* border: solid red 1px; */
         `}
       >
         <div
           css={css`
-            padding: 20px;
+            display: flex;
+            justify-content: center;
+            padding: 10px;
             background-color: #fdfdfd;
             border: solid #bec9d2 2px;
             border-radius: 10px;
-
             box-shadow: rgb(0 0 0 / 3%) 0px 3px 8px 0px;
           `}
         >
           <h2
             css={css`
               font-weight: bold;
+              letter-spacing: 1.5px;
             `}
           >
             ユーザー情報
@@ -102,7 +98,6 @@ const UserInfo = () => {
             background-color: #fdfdfd;
             border: solid #bec9d2 2px;
             border-radius: 10px;
-
             box-shadow: rgb(0 0 0 / 3%) 0px 3px 8px 0px;
           `}
         >

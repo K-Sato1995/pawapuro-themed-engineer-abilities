@@ -22,10 +22,10 @@ const Main = () => {
           /* border: dashed 1px; */
 
           display: flex;
-          justify-content: center;
           height: 20vh;
           min-height: 250px;
-          margin: 30px;
+          margin: 30px 30px;
+          padding: 0 30px;
         `}
       >
         <UserInfo />
@@ -51,10 +51,8 @@ const Main = () => {
       <section
         css={css`
           /* border: dashed 1px; */
-
           height: 30vh;
           min-height: 300px;
-          /* background-color: #9cc7e3; */
           margin: 30px;
         `}
       >

@@ -18,7 +18,6 @@ const Footer = () => {
         css={css`
           position: relative;
           width: 100%;
-          color: #3276a3;
         `}
       >
         <span
@@ -26,7 +25,7 @@ const Footer = () => {
             position: absolute;
             right: 20px;
             bottom: 20px;
-            color: #3276a3;
+            color: #bec9d2;
           `}
         >
           パワプロ風エンジニア能力値
