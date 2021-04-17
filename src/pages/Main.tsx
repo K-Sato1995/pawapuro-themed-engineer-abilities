@@ -38,8 +38,8 @@ const Main = () => {
           display: flex;
           flex-wrap: wrap;
           justify-content: space-evenly;
-          height: 30vh;
-          min-height: 280px;
+          /* height: 20vh; */
+          min-height: 300px;
           margin: 30px;
         `}
       >
@@ -51,8 +51,8 @@ const Main = () => {
       <section
         css={css`
           /* border: dashed 1px; */
-          height: 30vh;
-          min-height: 300px;
+          height: 20vh;
+          min-height: 250px;
           margin: 30px;
         `}
       >
