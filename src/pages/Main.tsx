@@ -64,13 +64,10 @@ const Main = () => {
             margin: 10px;
           `}
         >
-          <SpecialSkill />
-          <SpecialSkill />
-          <SpecialSkill />
-          <SpecialSkill />
-          <SpecialSkill />
-          <SpecialSkill />
-          <SpecialSkill />
+          <SpecialSkill spcialSkillName={'Ruby ○'} />
+          <SpecialSkill spcialSkillName={'JavaScript ○'} />
+          <SpecialSkill spcialSkillName={'驚異のコミュ力'} />
+          <SpecialSkill spcialSkillName={'Python ○'} />
         </div>
       </section>
     </>

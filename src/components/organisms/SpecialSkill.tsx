@@ -2,7 +2,11 @@
 import React from 'react'
 import { css } from '@emotion/react'
 
-const SpecialSkill = () => {
+interface Props {
+  spcialSkillName: string
+}
+
+const SpecialSkill = ({ spcialSkillName }: Props) => {
   return (
     <div
       css={css`
@@ -22,8 +26,20 @@ const SpecialSkill = () => {
           position: relative;
           border-radius: 10px;
           margin: 10px;
-          background-color: #fdfdfd;
           box-shadow: rgb(0 0 0 / 3%) 0px 3px 8px 0px;
+          background: linear-gradient(
+            180deg,
+            #b1e9ff 20%,
+            #ffff 40%,
+            #b1e9ff 100%
+          );
+
+          /* background: linear-gradient(
+            180deg,
+            #d0ebfc 20%,
+            #ffff 40%,
+            #d0ebfc 100%
+          ); */
         `}
       >
         <h2
@@ -34,7 +50,7 @@ const SpecialSkill = () => {
             color: #3276a3;
           `}
         >
-          Ruby
+          {spcialSkillName}
         </h2>
       </div>
     </div>
