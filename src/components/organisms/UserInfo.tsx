@@ -41,7 +41,7 @@ const UserInfo = () => {
               justify-content: center;
               align-items: center;
               background-color: #26dc1c;
-              border: solid #22b91a 2px;
+              border: solid #74f36d 2px;
               text-align: center;
               width: 200px;
               height: 40px;
@@ -49,6 +49,13 @@ const UserInfo = () => {
               position: relative;
               border-radius: 10px;
               margin: 7px;
+
+              background: linear-gradient(
+                180deg,
+                #74f36d 20%,
+                #a9f0a5 40%,
+                #26dc1c 100%
+              );
             `}
           >
             <h2

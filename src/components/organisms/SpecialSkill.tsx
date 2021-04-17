@@ -30,16 +30,9 @@ const SpecialSkill = ({ spcialSkillName }: Props) => {
           background: linear-gradient(
             180deg,
             #b1e9ff 20%,
-            #ffff 40%,
+            #eff8fc 40%,
             #b1e9ff 100%
           );
-
-          /* background: linear-gradient(
-            180deg,
-            #d0ebfc 20%,
-            #ffff 40%,
-            #d0ebfc 100%
-          ); */
         `}
       >
         <h2
